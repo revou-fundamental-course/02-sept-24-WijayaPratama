@@ -78,3 +78,25 @@
 .hero-form input {
   height: 2rem;
 }
+
+.btn-form {
+  display: flex;
+}
+
+.btn-submit {
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: rgb(50, 50, 139);
+  color: white;
+  margin-top: 20px;
+}
+
+.btn-reset {
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: rgb(172, 16, 24);
+  color: white;
+  margin-top: 20px;
+  position: absolute;
+  right: 0px;
+}

@@ -7,8 +7,9 @@ function Luas(event) {
   let tinggi = parseFloat(T);
 
   let hasil = 0.5 * alas * tinggi;
-  let tampil = document.getElementById("cara");
+  let tampil = document.getElementById("result");
   tampil.innerHTML = `
+        Hasil Perhitungan <br>
         L = 1/2 x a x t <br>
         L = 1/2 x ${alas} x ${tinggi} <br>
         L = ${hasil}
@@ -20,5 +21,5 @@ function Reset(event) {
   event.preventDefault();
   document.getElementById("panjangAlas").value = "";
   document.getElementById("Tinggi").value = "";
-  document.getElementById("cara").style.display = "none";
+  document.getElementById("result").style.display = "none";
 }
