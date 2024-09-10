@@ -1,0 +1,80 @@
+.main-header {
+  text-align: center;
+}
+
+.selection-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.segitiga {
+  background-color: blue;
+}
+
+.jajargenjang {
+  color: blue;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content .img {
+  background-position: center;
+  align-self: center;
+}
+
+.header-Lsegitiga {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0px;
+  background: cornflowerblue;
+  text-align: center;
+}
+
+.header-Lsegitiga h1 {
+  color: white;
+}
+
+.content-selection {
+  margin-top: 1rem;
+}
+
+.luas-segitiga-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+.luas-segitiga-content b {
+  align-items: center;
+}
+
+.luas-segitiga-content p {
+  text-align: start;
+  margin-top: 2rem;
+}
+
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+
+.hero-form input {
+  height: 2rem;
+}

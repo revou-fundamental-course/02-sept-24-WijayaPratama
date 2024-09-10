@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main-header">
+      <header class="hero-header">
+        <h1>Welcome to Katik</h1>
+        <p>Hai Sobat Selamat Datang di Katik <i class="ph ph-smiley-wink"></i></p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+      </header>
+
+      <main class="main-selection">
+        <section class="selection-content">
+          <button class="btn segitiga">Segitiga</button>
+          <button class="btn jajargenjang">Jajar Genjang</button>
+        </section>
+      </main>
+    </div>
+
+    <div class="main-content">
+      <header class="header-Lsegitiga">
+        <h1>Luas Segitiga</h1>
+        <div class="content-selection">
+          <button>Luas</button>
+          <button>Keliling</button>
+        </div>
+      </header>
+      <div class="img">
+        <img src="https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png" alt="Gambar Rumus Luas Segitiga" height="400px" />
+      </div>
+      <div class="luas-segitiga-content">
+        <b>Rumus Luas Segitiga Yaitu:</b>
+        <b>L = 1/2 x a x t</b>
+        <p>
+          Di mana :
+          <br />
+          L = Luas
+          <br />
+          a = Panjang Alas
+          <br />
+          t = Tinggi
+        </p>
+      </div>
+
+      <hr />
+
+      <form>
+        <header>
+          <h1>Hitung Luas Segitiga</h1>
+        </header>
+        <div class="hero-form">
+          <input type="number" id="panjangAlas" placeholder="Nilai Alas" />
+          <input type="number" id="Tinggi" placeholder="Nilai Tinggi" />
+        </div>
+        <p id="result">Hasil Perhitungan</p>
+        <p id="cara"></p>
+        <button type="submit" onclick="Luas(event)">Hitung</button>
+        <button type="reset" onclick="Reset(event)">Reset</button>
+      </form>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
