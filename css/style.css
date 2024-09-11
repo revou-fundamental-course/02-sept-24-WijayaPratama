@@ -1,3 +1,7 @@
+/* body {
+  background-color: #b3b2b241;
+} */
+
 .main-header {
   text-align: center;
 }
@@ -5,6 +9,10 @@
 .selection-content {
   display: flex;
   flex-direction: column;
+}
+
+.selection-content a button {
+  width: 100%;
 }
 
 .btn {
@@ -20,12 +28,8 @@
   cursor: pointer;
 }
 
-.segitiga {
+.biru {
   background-color: blue;
-}
-
-.jajargenjang {
-  color: blue;
 }
 
 .main-content {
@@ -35,6 +39,10 @@
 .main-content .img {
   background-position: center;
   align-self: center;
+}
+
+.img-jg {
+  margin-top: 2rem;
 }
 
 .header-Lsegitiga {
@@ -51,6 +59,22 @@
 
 .content-selection {
   margin-top: 1rem;
+}
+
+.content-selection button {
+  background-color: black;
+  color: wheat;
+  border: none;
+  padding: 10px;
+  border-radius: 16px;
+  margin: 10px;
+  width: 5rem;
+}
+
+.content-selection button:hover {
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
 }
 
 .luas-segitiga-content {
@@ -89,6 +113,14 @@
   background-color: rgb(50, 50, 139);
   color: white;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  padding: 1.15rem;
+}
+.btn-reset:hover {
+  padding: 1.15rem;
 }
 
 .btn-reset {
@@ -99,4 +131,9 @@
   margin-top: 20px;
   position: absolute;
   right: 0px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
