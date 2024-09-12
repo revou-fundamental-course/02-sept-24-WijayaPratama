@@ -65,7 +65,7 @@ function Ksegitiga(event) {
     let hasil = parseFloat(A) + parseFloat(B) + parseFloat(C);
     tampil.innerHTML = `
           Hasil Perhitungan <br>
-          K = a + b + c <br>
+          K = a + s1 + s2 <br>
           K = ${A} + ${B} + ${C} <br>
           K = ${hasil}
       `;
