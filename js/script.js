@@ -1,3 +1,4 @@
+// fungsi Luas Segitiga
 function Lsegitiga(event) {
   event.preventDefault();
 
@@ -22,6 +23,8 @@ function Lsegitiga(event) {
     tampil.style.display = "block";
   }
 }
+
+// fungsi Luas jajargenjang
 
 function Ljajargenjang(event) {
   event.preventDefault();
@@ -48,6 +51,8 @@ function Ljajargenjang(event) {
   }
 }
 
+// fungsi Keliling segitiga
+
 function Ksegitiga(event) {
   event.preventDefault();
 
@@ -71,6 +76,8 @@ function Ksegitiga(event) {
   }
 }
 
+// fungsi Keliling Jajargenjang
+
 function Kjajargenjang(event) {
   event.preventDefault();
 
@@ -93,6 +100,7 @@ function Kjajargenjang(event) {
   }
 }
 
+// fungsi reset
 function Reset(event) {
   event.preventDefault();
   // LUAS SEGITIGA
@@ -110,16 +118,12 @@ function Reset(event) {
 
 function btnLsegitiga(event) {
   event.preventDefault();
-
   document.querySelector(".main-Ksegitiga").classList.add("hidden");
-
   document.querySelector(".main-Lsegitiga").classList.remove("hidden");
 }
 
 function btnKsegitiga(event) {
   event.preventDefault();
-
   document.querySelector(".main-Lsegitiga").classList.add("hidden");
-
   document.querySelector(".main-Ksegitiga").classList.remove("hidden");
 }
